@@ -12,7 +12,9 @@ namespace Polymorphism
         {
             /* Child c = new Child();
              c.ParentMethod();*/
-            Parent p = new Child(); //Up-casting
+            /*Parent p = new Child(); //Up-casting
+            p.ParentMethod();*/
+            Parent p = new GrandChild();
             p.ParentMethod();
         }
     }

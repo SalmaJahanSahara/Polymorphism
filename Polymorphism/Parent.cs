@@ -11,6 +11,7 @@ namespace Polymorphism
         virtual public void ParentMethod() // virtual keyword is used to overirde a method
         {
             Console.WriteLine("Parent->Parent Method");
+
         }
     }
 }
